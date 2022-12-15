@@ -3,15 +3,23 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color:white
+  }
+
+a:hover {
+    background-color: #6E0D25;
+    Color: #AFC97E;
   }
 
   body{
-    background-color: darkslategray;
+background-color: darkblue;
   }
+
 
 h2,
 h3 {
   text-align: center;
+
 }
 
 p{
@@ -20,10 +28,15 @@ p{
 
 img{
     width:100%;
-    max-width:300px;
+    max-width:500px;
+    max-height:350px;
 }
-    
 
+#img1{
+    width: 100%;
+    height: auto;
+    max-width:900px;
+}   
 
 .container{
     display: flex;
@@ -31,11 +44,37 @@ img{
     justify-content: center;
     width: 100%;
 
+    animation-name: backgroundColorPalette;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
 }
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #20BF55;
+	}
+	20% {
+		background: #0B4F6C;
+	}
+    40% {
+		background: #27213C;
+	}
+	60% {
+		background: #01BAEF;
+	}
+	80% {
+		background: #3046CC;
+	}
+	100% {
+		background: #757575;
+	}
+}
+
 .header{
     padding: 10px;
     font-family: helvetica, Arial, sans-serif;
-    background-color: #ccbc2c;
     color: #c1e4a5;
     width: 100%;
 }
@@ -43,7 +82,7 @@ img{
 .header h1 {
     display: inline-flex;
     font-size: 25px;
-    color:rgb(52, 73, 94);
+    color:#F4FFF8;
     position: relative;
     transform: translateY(-50%);
     padding-bottom: 10px
@@ -61,7 +100,7 @@ img{
 }
 
 .header nav ul {
-    padding-top: 10px;
+    padding-top: 40px;
     text-align: left;
 }
 
@@ -76,6 +115,61 @@ img{
     padding-top: 5px;
 
 }
-.projects ul li{
-    display: inline; 
+
+section{
+    width: 50%;
+    margin: 150px auto;
+
 }
+
+ul{
+    list-style-type: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .c{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .bottom{
+    padding-bottom: 50px;
+  }
+
+  .connect{
+    margin-bottom: 10px;
+
+  }
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    background-color: rgb(163, 163, 163);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
