@@ -44,14 +44,14 @@ img{
     justify-content: center;
     width: 100%;
 
-    animation-name: backgroundColorPalette;
+    animation-name: Headerbackgroundpalette;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-timing-function: linear; 
 }
 
-@keyframes backgroundColorPalette {
+@keyframes Headerbackgroundpalette {
 	0% {
 		background: #20BF55;
 	}
