@@ -40,7 +40,7 @@ I cmae across some CSS styling issues as it was definately a trial and error und
 Utilizing the site is simple! 
 
 Load the site by copying and pasting the link on to a browser.
-* 
+* https://kpxcrew.github.io/PortfolioHW/
 
 Once open, click on any of the three topics in the navigation bar. The title will redirect you to the location on the page that porvides more information in respect to the subject. 
 
