@@ -15,9 +15,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 
 ## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -48,7 +45,7 @@ Load the site by copying and pasting the link on to a browser.
 Once open, click on any of the three topics in the navigation bar. The title will redirect you to the location on the page that porvides more information in respect to the subject. 
 
 ## Screenshots
-![Screenshot1](./assets/images/Screenshot 2022-12-15 194047.png)
+![Screenshot1](./assets/images/Screenshot1.png)
 
 ## Sources
 https://loremipsum.io/
