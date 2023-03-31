@@ -34,7 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## About
 Welcome to my portfolio. It’s in its infant stages as I don’t have many projects to add, however, that will very soon change. I’m excited to bring you many and new projects to hopefully show you my caliber with coding and to work together. Be on the look out for new content!
 
-I cmae across some CSS styling issues as it was definately a trial and error understanding what certain coding will do and having it done the way i wanted. Although, creatively, this isnt waht i want my final page to be, i look forward to creating a very interactive and intuitive portfolio.
+I came across some CSS styling issues as it was definately a trial and error understanding what certain coding will do and having it done the way i wanted. Although, creatively, this isn't what i want my final page to be, i look forward to creating a very interactive and intuitive portfolio.
 
 ## Usage
 Utilizing the site is simple! 
@@ -42,7 +42,7 @@ Utilizing the site is simple!
 Load the site by copying and pasting the link on to a browser.
 * https://kpxcrew.github.io/PortfolioHW/
 
-Once open, click on any of the three topics in the navigation bar. The title will redirect you to the location on the page that porvides more information in respect to the subject. 
+Once open, click on any of the three topics in the navigation bar. The title will redirect you to the location on the page that provides more information in respect to the subject. 
 
 ## Screenshots
 ![Screenshot1](./assets/images/Screenshot1.png)
